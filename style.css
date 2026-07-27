@@ -1,0 +1,537 @@
+html {
+                scroll-behavior: smooth;
+            }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background-color: #fff;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+h1, h2, h3, h4 {
+    color: #1D0200;
+}
+
+.btn {
+    background-color: #0B6EFD;
+    color: #FFF;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+    display: inline-block;
+}
+.btn:hover {
+    background-color:#0956C7;
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #0B6EFD;
+    padding: 14px 28px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    background: #f5f5f5;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,.08);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+}
+
+.logo {
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #0B6EFD;
+}
+
+.hero {
+    height: 100vh;
+    background: url('medminority-images/medminority-hero-1.jpg') center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.55)
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.15rem;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Search Section*/
+.search-section {
+    background: #f8fbff;
+    text-align: center;
+}
+
+.search-section h2 {
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.search-box input, .search-box select{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.search-box button {
+    background: #0b6efd;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.search-box button:hover {
+    background: #0956c7;
+}
+
+/*Featured Doctors*/
+.featured-doctors {
+    text-align: center;
+}
+
+.featured-doctors h2 {
+    margin-bottom: 50px;
+}
+
+.doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.doctor-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+}
+
+.doctor-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.doctor-card h3 {
+    margin-top: 20px;
+    color: #1F3243;
+}
+
+.doctor-specialty {
+    color: #0b6efd;
+    font-weight: 600;
+}
+
+.doctor-clinic {
+    color: #767D82;
+}
+
+.doctor-location {
+    color: #5F666B;
+}
+
+
+.doctor-card span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.doctor-card a{
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #0b6efd;
+    font-weight: 600;
+}
+
+/*Representation*/
+.representation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    background: #f8fbff;
+}
+
+.representation-image img {
+    border-radius: 20px;
+    box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.representation-content h2 {
+    margin-bottom: 20px;
+}
+
+.representation-content p {
+    margin-bottom: 15px;
+}
+
+/*Stats*/
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+.stat-card {
+    background: #0b6efd;
+    color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.stats-card h2{
+    color: #fff;
+    font-size: 3rem;
+}
+
+/*Careers*/
+.career-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.career-image img {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+}
+
+.career-content h2 {
+    margin-bottom: 20px;
+}
+
+.career-content p {
+    margin-bottom: 20px;
+}
+/*Testimonials*/
+.testimonials {
+    background: #f8fbff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,.08)
+}
+
+.testimonial-card h4 {
+    margin-top: 20px;
+    color: #0b6efd;
+}
+
+/*CTA*/
+.cta {
+    background: #0b6efd;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    margin-bottom: 25px;
+}
+
+/*Footer*/
+footer {
+    background: #0b2d4a;
+    color: #fff;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 60px 8%;
+}
+
+.footer-content h3, .footer-content h4{
+    color: #fff;
+    margin: 15px;
+}
+
+.footer-content ul li {
+    margin-bottomm: 10px;
+}
+
+.footer-content a {
+    color: #ddd;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+
+.socials i {
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15)
+}
+
+/*About Page Hero*/
+.page-hero {
+    height: 100vh;
+    background: url('our-story-3.jpg') top center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.6)
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    color: #fff;
+}
+
+.page-hero-content h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/*About Story*/
+.about-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-image img {
+    border-radius: 20px;
+}
+
+/*Mission*/
+.mission-vision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+    background: #f8fbff;
+}
+
+.mission-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0,0,0,.08)
+}
+
+.mission-card i {
+    font-size: 50px;
+    color: #0b6efd;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px) {
+    .about-story {
+        grid-template-columns: 1fr;
+    }
+
+    .page-hero-content h1{
+        font-size: 2.2rem;
+    }
+}
+/*Find a Doctor*/
+
+.search {
+    background: #f7f9fc;
+    text-align: center;
+    padding: 80px 8%;
+}
+
+.search h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #102033;
+    margin-bottom: 35px;
+}
+
+.filter-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.filter-bar div {
+    width: 100%;
+}
+
+.filter-bar input, .filter-bar select {
+    width: 100%;
+    height: 52px;
+    padding: 0 16px;
+    border: 1px solid #e1e5ec;
+    border-radius: 8px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+.filter-bar button {
+    width: 100%;
+    height: 52px;
+    padding: 0 16px;
+    border: 1px solid #e1e5ec;
+    border-radius: 8px;
+    background: #0B6EFD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    transition: .3s;
+}
+
+.filter-bar button:hover {
+    background-color:#0956C7;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Fix the text alignment in footer and logo size should match size in navbar*/
