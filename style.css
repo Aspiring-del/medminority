@@ -524,6 +524,56 @@ footer {
 }
 
 
+/*How To Help*/
+
+.help-hero{
+    background:url("images/help-hero.jpg") center center/cover;
+}
+
+.contact-section{
+    background:#f8fbff;
+}
+
+.contact-form{
+    max-width:800px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+
+    padding:16px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:16px;
+
+}
+
+.contact-form textarea{
+
+    resize:vertical;
+
+}
+
+.contact-form button{
+
+    align-self:flex-start;
+
+    border:none;
+
+    cursor:pointer;
+}
+
+
 
 
 
