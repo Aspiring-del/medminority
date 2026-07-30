@@ -1,32 +1,6 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    font-family: Verdana, sans-serif; margin: 0;
-}
-.home {
-    border-bottom: 2px solid #333333;
-}
-
-.navbar {
-    background-color: #f4f4f4;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 100px;
-}
-.navbar li a {
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
-    font-family: sans-serif;
-    display: inline-block;
-    padding: 10px 15px;
-    transition: color 0.3s ease;
-}
-.navbar li a:hover { color: #aaaaaa !important; }
 
 .theme {
     background-color: #f4f4f4;
