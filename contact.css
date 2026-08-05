@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: #f4f4f4;
+}
+
 .theme {
     background-color: #f4f4f4;
     color: black;
