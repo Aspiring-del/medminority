@@ -70,5 +70,10 @@ form {
     padding:15px 0px 15px 0px;
 }
 
+.theme {
+    padding-top: 220px;
+    text-align: center;
+}
+
 label, input, textarea { display: block; margin-bottom: 15px; width: 100%; }
 
