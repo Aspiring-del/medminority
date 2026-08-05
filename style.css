@@ -107,6 +107,11 @@ header {
     text-align: center;
 }
 
+.hero,
+.page-hero {
+    padding-top: 186px;
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
