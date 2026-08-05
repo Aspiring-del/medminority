@@ -98,7 +98,7 @@ header {
 }
 
 .hero {
-    height: 100vh;
+    min-height: calc(100vh - 186px);
     background: url('medminority-images/medminority-hero-1.jpg') center center/cover;
     position: relative;
     display: flex;
