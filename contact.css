@@ -41,6 +41,7 @@ form {
     outline: none;
     padding-left: 25px;
     font-weight: 500;
+    color: #666;
     border-radius: 50px;
 }
 
@@ -50,6 +51,89 @@ form {
 }
 
 .contact-message {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.contact-message:hover {
+    border: 1px solid #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.submit {
+    display: flex;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 0px 15px 0px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}html {
+    scroll-behavior: smooth;
+}
+
+.theme {
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
+    padding: 220px 20px 50px 20px;
+}
+
+.cropped-image {
+    max-width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cropped-image img {
+    max-width: 100%;
+    position: relative;
+    top: -100px;
+}
+
+.contact-form {
+    padding: 40px;
+    background: linear-gradient(to top, #f5f5fa 0%, #f4f4f4 100%);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.contact-inputs {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-inputs:hover {
+    border: 1px solid #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.contact-message {
+    width: 100%;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -79,4 +163,3 @@ textarea {
     margin-bottom: 15px;
     width: 100%;
 }
-
