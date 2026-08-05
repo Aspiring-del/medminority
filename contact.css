@@ -27,10 +27,14 @@ body {
 
 
 .contact-form {
+    max-width: none;
     width: 100%;
+    margin: 0;
+    display: block;
     padding: 80px 8%;
     background: linear-gradient(to top, #f5f5fa 0%, #f4f4f4 100%);
 }
+
 form {
     max-width: 600px;
     margin: 0 auto;
