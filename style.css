@@ -62,7 +62,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0px;
     z-index: 1000;
