@@ -586,3 +586,416 @@ footer {
 
 
 /*Fix the text alignment in footer and logo size should match size in navbar*/
+
+/* ==================================
+   RESOURCES PAGE
+================================== */
+
+.resources-hero {
+    background: url("medminority-images/our-story-3.jpg") center center/cover;
+}
+
+.section-label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #0b6efd;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #0b6efd !important;
+}
+
+/* ==================================
+   CAREER PATHWAY
+================================== */
+
+.career-pathway {
+    background: #f8fbff;
+}
+
+.pathway-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.pathway-card {
+    position: relative;
+    background: #fff;
+    padding: 45px 25px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.pathway-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 35px rgba(0,0,0,.12);
+}
+
+.pathway-number {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b6efd;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+
+.pathway-card > i {
+    margin-bottom: 20px;
+    color: #0b6efd;
+    font-size: 42px;
+}
+
+.pathway-card h3 {
+    margin-bottom: 12px;
+}
+
+/* ==================================
+   RESOURCE LIBRARY
+================================== */
+
+.resource-library {
+    text-align: center;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+    margin-top: 45px;
+    text-align: left;
+}
+
+.resource-card {
+    background: #fff;
+    padding: 35px;
+    border: 1px solid #e3edf7;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+    transition: transform .3s ease, border-color .3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-7px);
+    border-color: #0b6efd;
+}
+
+.resource-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #eaf4ff;
+    color: #0b6efd;
+    border-radius: 14px;
+    font-size: 25px;
+}
+
+.resource-card h3 {
+    margin-bottom: 12px;
+}
+
+.resource-card p {
+    margin-bottom: 20px;
+}
+
+.resource-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #0b6efd;
+    font-weight: 600;
+    transition: gap .3s ease;
+}
+
+.resource-link:hover {
+    gap: 13px;
+}
+
+/* ==================================
+   SCHOLARSHIPS
+================================== */
+
+.scholarship-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    background: #f8fbff;
+}
+
+.scholarship-content > p {
+    margin-bottom: 25px;
+}
+
+.scholarship-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.scholarship-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.scholarship-item > i {
+    margin-top: 6px;
+    color: #2e8b57;
+    font-size: 20px;
+}
+
+.scholarship-item h3 {
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+}
+
+.scholarship-image img {
+    min-height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* ==================================
+   MENTORSHIP
+================================== */
+
+.mentorship-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.mentorship-image img {
+    min-height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.mentorship-content > p {
+    margin-bottom: 18px;
+}
+
+.benefit-list {
+    margin: 25px 0 30px;
+}
+
+.benefit-list li {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.benefit-list i {
+    color: #2e8b57;
+}
+
+/* ==================================
+   SUCCESS STORIES
+================================== */
+
+.success-stories {
+    background: #f8fbff;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px;
+}
+
+.story-card {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: transform .3s ease;
+}
+
+.story-card:hover {
+    transform: translateY(-7px);
+}
+
+.story-card img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.story-card-content {
+    padding: 28px;
+}
+
+.story-card-content > span {
+    color: #0b6efd;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.story-card-content h3 {
+    margin: 10px 0 12px;
+}
+
+.story-card-content p {
+    margin-bottom: 18px;
+}
+
+.story-card-content a {
+    color: #0b6efd;
+    font-weight: 600;
+}
+
+.story-card-content a i {
+    margin-left: 6px;
+}
+
+/* ==================================
+   DOWNLOADS
+================================== */
+
+.downloads-section {
+    text-align: center;
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.download-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 18px;
+    align-items: center;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #e3edf7;
+    border-radius: 14px;
+    text-align: left;
+    box-shadow: 0 6px 20px rgba(0,0,0,.05);
+}
+
+.download-card > i {
+    color: #d93b3b;
+    font-size: 36px;
+}
+
+.download-card h3 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.download-card p {
+    font-size: .9rem;
+}
+
+.download-card > a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf4ff;
+    color: #0b6efd;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.download-card > a:hover {
+    background: #0b6efd;
+    color: #fff;
+}
+
+/* ==================================
+   CTA BUTTONS
+================================== */
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cta .btn {
+    background: #fff;
+    color: #0b6efd;
+}
+
+.cta .btn:hover {
+    background: #f5f5f5;
+    color: #0956c7;
+}
+
+.cta .btn-secondary {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+/* ==================================
+   RESPONSIVE RESOURCES PAGE
+================================== */
+
+@media(max-width: 900px) {
+    .scholarship-section,
+    .mentorship-section {
+        grid-template-columns: 1fr;
+    }
+
+    .mentorship-image {
+        order: 2;
+    }
+
+    .mentorship-content {
+        order: 1;
+    }
+
+    .scholarship-image img,
+    .mentorship-image img {
+        min-height: 380px;
+    }
+}
+
+@media(max-width: 600px) {
+    .pathway-grid,
+    .resource-grid,
+    .story-grid,
+    .download-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .download-card {
+        grid-template-columns: auto 1fr;
+    }
+
+    .download-card > a {
+        grid-column: 1 / -1;
+        width: 100%;
+        border-radius: 8px;
+    }
+}
