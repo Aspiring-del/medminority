@@ -469,6 +469,11 @@ footer {
 }
 /*Find a Doctor*/
 
+.active-btn {
+    background-color: #0b57d0;
+    box-shadow: inset 0 0 0 2px #084298;
+}
+
 .search {
     background: #f7f9fc;
     text-align: center;
