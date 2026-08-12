@@ -1320,4 +1320,9 @@ footer {
     }
 
 }
+.contact-hero {
+    background:
+        url("medminority-images/contact-hero.jpg")
+        center center / cover;
+}
 
