@@ -541,6 +541,10 @@ footer {
     transform: translateY(-3px);
 }
 
+.team-section .doctor-card img {
+    object-position: center top;
+}
+
 
 /*How To Help*/
 
