@@ -3,132 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="black healthcare providers, minority doctors, culturally competent care, Novant doctors, Atrium Health doctors, health equity directory">
+    <meta
+        name="description"
+        content="MedMinority's developing opt-in directory of African American physicians in North Carolina."
+    >
     <meta name="author" content="Niya Barry">
-    <title>Find a Doctor | EquiHealth</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Directory | MedMinority</title>
+
+    <link
+        rel="stylesheet"
+        href="https://www.w3schools.com/w3css/4/w3.css"
+    >
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    >
     <link rel="stylesheet" href="style.css">
-
-
-    <style>
-
-    </style>
 </head>
 
 <body>
     <header>
-            <nav class="navbar">
-                <div>
-                    <a href="index.html">
-                        <img src="medminority-images/medminority-logo-2.png" alt="MedMinority Logo" class="logo">
+        <nav class="navbar">
+            <div>
+                <a href="index.html">
+                    <img
+                        src="medminority-images/medminority-logo-2.png"
+                        alt="MedMinority Logo"
+                        class="logo"
+                    >
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">How to Help</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a
+                href="find.html"
+                class="btn active-btn"
+                aria-current="page"
+            >
+                Directory
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero doctor-hero">
+            <div class="page-hero-overlay"></div>
+
+            <div class="page-hero-content">
+                <h1>North and South Carolina Provider Directory</h1>
+
+                <p>
+                    The directory is being built through voluntary provider
+                    submissions and manual review.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-intro">
+            <div class="section-title">
+                <span class="section-label">Directory Development</span>
+
+                <h2>Provider Profiles Are Being Added</h2>
+
+                <p>
+                    MedMinority is currently collecting information directly
+                    from physicians who choose to participate. Profiles will
+                    be published after the submitted professional information
+                    and participation consent have been reviewed.
+                </p>
+
+                <p>
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfSLdoAgovO8rUOqk4jmJVDaJ7Mne_3wZfpy1gq4QQiPlHNcg/viewform"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn"
+                    >
+                        Provider Opt-In Form
                     </a>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
+                </p>
+            </div>
+        </section>
+
+        <section class="search doctor-search">
+
+            <h1>Find a Healthcare Provider</h1>
+        
+            <p>Search by name, specialty or city.</p>
+        
+            <form class="filter-bar doctor-filter-bar" id="doctorSearchForm">
+        
+                <input
+                    type="search"
+                    id="searchName"
+                    placeholder="Search provider's name"
+                    aria-label="Provider's name"
+                >
+        
+                <select id="specialty">
+                    <option value="">All Specialties</option>
+                    <option value="Vascular Surgery">Vascular Surgery</option>
+                    <option value="Infectious Disease">Infectious Disease</option>
+                    <option value="Family Medicine">Family Medicine</option>
+                    <option value="Pediatrics">Pediatrics</option>
+                    <option value="Neonatal-Perinatal Medicine / Pediatrics">Neonatal-Perinatal Medicine / Pediatrics</option>
+                    <option value="Pulmonary Disease / Sleep Medicine">Pulmonary Disease / Sleep Medicine</option>
+                    <option value="Transplant Surgery / General Surgery">Transplant Surgery / General Surgery</option>
+                    <option value="Emergency Medicine">Emergency Medicine</option>
+                    <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
+                    <option value="Internal Medicine">Internal Medicine</option>
+                    <option value="Pediatric Nephrology / Pediatrics">Pediatric Nephrology / Pediatrics</option>
+                    <option value="Maternal & Fetal Medicine / Obstetrics & Gynecology">Maternal & Fetal Medicine / Obstetrics & Gynecology</option>
+                    <option value="Hospice and Palliative Medicine / Hospitalist">Hospice and Palliative Medicine / Hospitalist</option>
+                    <option value="Hospitalist / Internal Medicine">Hospitalist / Internal Medicine</option>
+                    <option value="Endocrinology">Endocrinology</option>
+                    <option value="Family Medicine / Obesity Medicine">Family Medicine / Obesity Medicine</option>
+                    <option value="Orthopaedic Surgery">Orthopaedic Surgery</option>
+                    <option value="Orthopaedic Spine Surgery">Orthopaedic Spine Surgery</option>
+                    <option value="Hospital Medicine">Hospital Medicine</option>
+                    <option value="Family Medicine / Primary Care">Family Medicine / Primary Care</option>
+                    <option value="Dentistry">Dentistry</option>
+                    <option value="Family Nurse Practitioner">Family Nurse Practitioner</option>
+                    <option value="Geriatric Nurse Practitioner">Geriatric Nurse Practitioner</option>
+                    <option value="Optometry">Optometry</option>
+                    <option value="Podiatry">Podiatry</option>
+                    <option value="Licensed Clinical Psychology">Licensed Clinical Psychology</option>
+                    <option value="Clinical Social Work">Clinical Social Work</option>
+                    <option value="Behavioral Health">Behavioral Health</option>
+                    <option value="Speech-Language Pathology">Speech-Language Pathology</option>
+                    <option value="Chiropractic Medicine">Chiropractic Medicine</option>
+                    <option value="Licensed Professional Counseling">Licensed Professional Counseling</option>
+                </select>
+        
+                <select id="city">
+                    <option value="">All Cities</option>
+                    <option value="Ahoskie">Ahoskie</option>
+                    <option value="Fayetteville">Fayetteville</option>
+                    <option value="Greenville">Greenville</option>
+                    <option value="Pinehurst">Pinehurst</option>
+                    <option value="Raeford">Raeford</option>
+                    <option value="Roanoke Rapids">Roanoke Rapids</option>
+                    <option value="Myrtle Beach">Myrtle Beach</option>
+                    <option value="Florence">Florence</option>
+                    <option value="Lake City">Lake City</option>
+                    <option value="Mullins">Mullins</option>
+                    <option value="Timmonsville">Timmonsville</option>
+                    <option value="Hartsville">Hartsville</option>
+                    <option value="Dillon">Dillon</option>
+                    <option value="Latta">Latta</option>
+                    <option value="Marion">Marion</option>
+                    <option value="Kingstree">Kingstree</option>
+                    <option value="Irmo">Irmo</option>
+                </select>
+        
+                <select id="ethnicity">
+                    <option value="">All Ethnicities</option>
+                </select>
+        
+                <button type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+        
+                <button type="button" id="resetSearch">
+                    Reset
+                </button>
+        
+            </form>
+        
+        </section>
+
+        <section class="directory-results">
+        
+            <h2>Provider Directory</h2>
+        
+            <p id="resultCount" role="status" aria-live="polite"></p>
+        
+            <div class="doctor-grid" id="doctorGrid">
+                <!-- JavaScript generates doctor cards here -->
+            </div>
+        
+            <p id="noResults" style="display:none;">
+                No providers match your search.
+                Try changing your filters.
+            </p>
+        
+        </section>
+
+        <section class="mission-vision">
+            <div class="mission-card">
+                <i class="fas fa-stethoscope"></i>
+
+                <h3>Search by Specialty</h3>
+
+                <p>
+                    Profiles will identify each physician's listed specialty
+                    so visitors can narrow the directory to the type of care
+                    they are seeking.
+                </p>
+            </div>
+
+            <div class="mission-card">
+                <i class="fas fa-location-dot"></i>
+
+                <h3>Search by Location</h3>
+
+                <p>
+                    Practice city and region information will help visitors
+                    discover physicians serving communities across North
+                    Carolina.
+                </p>
+            </div>
+
+            <div class="mission-card">
+                <i class="fas fa-hospital"></i>
+
+                <h3>Confirm Through Official Sources</h3>
+
+                <p>
+                    Directory profiles will point visitors toward official
+                    health-system or practice information whenever available.
+                </p>
+            </div>
+        </section>
+
+        <section class="representation">
+            <div class="representation-image">
+                <img
+                    src="medminority-images/healthcare_setting.jpg"
+                    alt="Healthcare professionals in a clinical setting"
+                >
+            </div>
+
+            <div class="representation-content">
+                <h2>What Will Appear in a Profile?</h2>
+
+                <p>
+                    Each published profile is intended to include a physician's
+                    name, specialty, practice location and an appropriate
+                    official source link.
+                </p>
+
+                <p>
+                    The directory will not display private contact details,
+                    patient information or unsupported claims about care
+                    quality.
+                </p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Independent Educational Project</h2>
+
+            <p>
+                MedMinority does not provide medical advice, recommend
+                individual physicians or verify quality of care. Visitors
+                should confirm current information through official
+                health-system, practice and licensing sources.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <img
+                    src="medminority-images/medminority-logo-2.png"
+                    alt="MedMinority Logo"
+                    style="height:300px;width:300px;"
+                >
+
+                <p>
+                    Connecting communities with minority healthcare
+                    professionals.
+                </p>
+                    <a href="https://www.instagram.com/medminority/" target="_blank" rel="noopener noreferrer" class="footer-instagram" aria-label="Follow MedMinority on Instagram" title="Follow MedMinority on Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+
+                <ul>
                     <li><a href="about.html">About</a></li>
                     <li><a href="help.html">How to Help</a></li>
                     <li><a href="resources.html">Resources</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <a href="find.html" class="btn active-btn" aria-current="page">
-                    Find a Doctor
-                </a>
-            </nav>
-        </header>
-
-        <!--Hero-->
-        <section class = "page-hero doctor-hero">
-            <div class="page-hero-overlay"></div>
-            <div class="page-hero-content">
-                <h1>Find Minority Doctors Across North Carolina</h1>
-                <p>Search for trusted healthcare professionals by specialty, city, ethnicity or language.</p>
             </div>
-        </section>
-
-    <section class="search">
-        <h1>Search the Directory</h1>
-
-        <form action="#" method="post" class="filter-bar">
-                <div>
-                    <input type="text" name="name" placeholder="Dr....">
-                </div>
-
-                <div>
-                    <input type="text" name="location" placeholder="City or Zip" required>
-                </div>
-
-                <div>
-                    <select name="specialty">
-                        <option selected disabled>Specialty</option>
-                        <option value="obgyn">OB-GYN</option>
-                        <option value="pediatrician">Pediatrician</option>
-                        <option value="family">Family Medicine</option>
-                        <option value="dermatology">Dermatology</option>
-                        <option value="mentalhealth">Mental Health</option>
-                    </select>
-                </div>
-
-                <div>
-                    <input type="text" name="insurance" placeholder="Insurance (optional)">
-                </div>
-
-                <button type="submit" class="search-submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    Search
-                </button>
-            </form>
-        </section>
-
-    <div class="content-wrapper">
-
-
-        <div style="max-width:900px;margin:0 auto;">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6688894.250917276!2d-85.15653688247146!3d35.05519783402896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sNorth%20Carolina!5e0!3m2!1sen!2sus!4v1763218980812!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style="border:0;"
-                loading="lazy">
-            </iframe>
         </div>
 
-    </div>
+        <div class="copyright">
+            &copy;2026 MedMinority | All Rights Reserved | Developed by Niya
+        </div>
+    </footer>
 
-    <footer>
-            <div class="footer-content">
-                <div>
-                    <img src="medminority-images/medminority-logo-2.png" alt="MedMinority Logo" style="height: 300px; width:300px;">
-                    <p>Connecting communities with minority healthcare professionals</p>
-                </div>
-
-                    <div>
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="help.html">How to Help</a></li>
-                            <li><a href="resources.html">Resources</a></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4>Follow Us</h4>
-                        <div class="socials">
-                            <i class="fab fa-facebook"></i>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-youtube"></i>
-                        </div>
-                    </div>
-            </div>
-            <div class="copyright">
-                &copy;2026 MedMinority | All Rights Reserved | Developed by Niya Barry
-            </div>
-        </footer>
-
-    <a href="contact.html" class="help-btn">Need Help?</a>
-
+    <script src="script.js"></script>
 </body>
 </html>
-
-
