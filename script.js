@@ -509,6 +509,56 @@ document.addEventListener("DOMContentLoaded", function () {
             ethnicity: "",
             practice: "Prime Care of the Lower Pee Dee",
             profile: "provider-pdmpa-tyrone-wallace.html"
+        },
+        {
+            id: 52,
+            name: "Shantel A. Brissett, MD",
+            specialty: "Cardiovascular Disease",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "East Carolina Heart Institute at East Carolina University",
+            profile: "provider-brissett.html"
+        },
+        {
+            id: 53,
+            name: "Laticia Bryant, AGNP",
+            specialty: "Adult Gerontology Nurse Practitioner",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-bryant.html"
+        },
+        {
+            id: 54,
+            name: "Francis E. Buckman, MD",
+            specialty: "Family Medicine",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-buckman.html"
+        },
+        {
+            id: 55,
+            name: "Jonathan E. Bullock, PA-C",
+            specialty: "Physician Assistant",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-bullock.html"
+        },
+        {
+            id: 56,
+            name: "Rahimallah Burnett, LCSW",
+            specialty: "Social Work",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Behavioral Health Care - Outpatient Clinic",
+            profile: "provider-burnett.html"
         }
     ];
 
