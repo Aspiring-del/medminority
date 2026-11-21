@@ -559,6 +559,66 @@ document.addEventListener("DOMContentLoaded", function () {
             ethnicity: "",
             practice: "ECU Health Behavioral Health Care - Outpatient Clinic",
             profile: "provider-burnett.html"
+        },
+        {
+            id: 57,
+            name: "Violet Awori, MD",
+            specialty: "Neurology",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Neurology - Greenville",
+            profile: "provider-awori.html"
+        },
+        {
+            id: 58,
+            name: "Brian R. Cabarrus, MD",
+            specialty: "Interventional Cardiology / Cardiovascular Disease",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "East Carolina Heart Institute at East Carolina University",
+            profile: "provider-cabarrus.html"
+        },
+        {
+            id: 59,
+            name: "Felicia T. Canaday, MD",
+            specialty: "Pulmonary Disease",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "521 Moye Medical Center - Pulmonary, Critical Care and Sleep Medicine",
+            profile: "provider-canaday.html"
+        },
+        {
+            id: 60,
+            name: "Karen D. Coward, MD",
+            specialty: "Family Medicine",
+            city: "Tarboro",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Family Medicine - Tarboro",
+            profile: "provider-coward.html"
+        },
+        {
+            id: 61,
+            name: "S. Karlene Cunningham, PhD",
+            specialty: "Psychology",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Behavioral Health Care - Outpatient Clinic",
+            profile: "provider-cunningham.html"
+        },
+        {
+            id: 62,
+            name: "Shironda F. Daniels, AGACNP",
+            specialty: "Adult Gerontology Acute Care Nurse Practitioner",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-daniels.html"
         }
     ];
 
