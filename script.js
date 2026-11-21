@@ -619,6 +619,66 @@ document.addEventListener("DOMContentLoaded", function () {
             ethnicity: "",
             practice: "ECU Health Medical Center",
             profile: "provider-daniels.html"
+        },
+        {
+            id: 63,
+            name: "Shannita L Applewhite, FNP",
+            specialty: "Family Nurse Practitioner",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-applewhite.html"
+        },
+        {
+            id: 64,
+            name: "Kiotta L. Barnhill, ANP",
+            specialty: "Adult Nurse Practitioner",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "521 Moye Medical Center - Pulmonary, Critical Care and Sleep Medicine",
+            profile: "provider-barnhill.html"
+        },
+        {
+            id: 65,
+            name: "Andrew L Bates, ACNP",
+            specialty: "Acute Care Nurse Practitioner",
+            city: "Greenville",
+            state: "NC",
+            ethnicity: "",
+            practice: "ECU Health Medical Center",
+            profile: "provider-bates.html"
+        },
+        {
+            id: 66,
+            name: "Twyla Renee Steamer, PA-C",
+            specialty: "Hospitalist",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth Hospitalists",
+            profile: "provider-steamer.html"
+        },
+        {
+            id: 67,
+            name: "Tiffany Y. Thompson, CNM",
+            specialty: "Obstetrics & Gynecology",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth OB/GYN",
+            profile: "provider-tiffany-thompson.html"
+        },
+        {
+            id: 68,
+            name: "Markida S. Pointer, MPAS",
+            specialty: "Physician Assistant",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth",
+            profile: "provider-pointer.html"
         }
     ];
 
