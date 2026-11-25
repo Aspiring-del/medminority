@@ -759,6 +759,16 @@ document.addEventListener("DOMContentLoaded", function () {
             ethnicity: "",
             practice: "FirstHealth Family Medicine-Raeford",
             profile: "provider-monroe.html"
+        },
+        {
+            id: 77,
+            name: "Raymond G. Washington Jr., MD, FACS",
+            specialty: "General Surgery / Bariatric Surgery",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "Pinehurst Surgical Clinic",
+            profile: "provider-raymond-washington.html"
         }
     ];
 
