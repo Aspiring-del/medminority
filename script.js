@@ -679,6 +679,86 @@ document.addEventListener("DOMContentLoaded", function () {
             ethnicity: "",
             practice: "FirstHealth",
             profile: "provider-pointer.html"
+        },
+        {
+            id: 69,
+            name: "Augustina Addison, MD",
+            specialty: "Obstetrics & Gynecology",
+            city: "Rockingham",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth OB/GYN-Richmond",
+            profile: "provider-addison.html"
+        },
+        {
+            id: 70,
+            name: "Matthew A. Daka, MD, FACC, FSCAI",
+            specialty: "Interventional Cardiology / Cardiovascular Disease",
+            city: "Fayetteville",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth Cardiology-Ferncreek",
+            profile: "provider-daka.html"
+        },
+        {
+            id: 71,
+            name: "Patrick E. Egbe, MD",
+            specialty: "Pediatrics",
+            city: "Rockingham",
+            state: "NC",
+            ethnicity: "",
+            practice: "Choice Pediatrix, PA",
+            profile: "provider-egbe.html"
+        },
+        {
+            id: 72,
+            name: "Beth W. Gachuki, PA-C",
+            specialty: "Urgent Care",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth",
+            profile: "provider-gachuki.html"
+        },
+        {
+            id: 73,
+            name: "Mohamed A. Ibrahim, MD",
+            specialty: "Obstetrics & Gynecology",
+            city: "Rockingham",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth OB/GYN-Richmond",
+            profile: "provider-ibrahim.html"
+        },
+        {
+            id: 74,
+            name: "Sharon M. Jackson, FNP",
+            specialty: "Family Nurse Practitioner / Neurology",
+            city: "Pinehurst",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth Neurology-Page Drive",
+            profile: "provider-sharon-jackson.html"
+        },
+        {
+            id: 75,
+            name: "Olujide G. Lawal, MD, FACC",
+            specialty: "Cardiology",
+            city: "Laurinburg",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth Cardiology Services",
+            profile: "provider-lawal.html"
+        },
+        {
+            id: 76,
+            name: "Martina L. Monroe, MD",
+            specialty: "Family Medicine",
+            city: "Raeford",
+            state: "NC",
+            ethnicity: "",
+            practice: "FirstHealth Family Medicine-Raeford",
+            profile: "provider-monroe.html"
         }
     ];
 
