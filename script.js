@@ -714,7 +714,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id: 72,
             name: "Beth W. Gachuki, PA-C",
             specialty: "Urgent Care",
-            city: "Pinehurst",
+            city: "Not listed",
             state: "NC",
             ethnicity: "",
             practice: "FirstHealth",
