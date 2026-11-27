@@ -6,7 +6,7 @@
 
 ## 🌟 Mission & Overview
 
-Finding a healthcare provider who understands your cultural background, language, or lived experiences can significantly improve patient outcomes and trust in medicine. **MedMinority** provides an intuitive platform where community members can locate trusted providers, access educational resources, and support diversity in healthcare.
+Finding a healthcare provider who understands your cultural background, language or lived experiences can significantly improve patient outcomes and trust in medicine. **MedMinority** provides an intuitive platform where community members can locate trusted providers, access educational resources, and support diversity in healthcare.
 
 ---
 
